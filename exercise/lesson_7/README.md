@@ -1,4 +1,4 @@
-# Lesson 6: HTML Structure
+# Lesson 7: Display property
 
 In this lesson, we will learn about the display property
 

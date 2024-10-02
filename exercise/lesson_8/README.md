@@ -1,4 +1,4 @@
-# Lesson 6: HTML Structure
+# Lesson 8: Div
 
 In this lesson, we will learn about DIV
 

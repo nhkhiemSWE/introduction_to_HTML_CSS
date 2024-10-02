@@ -1,4 +1,4 @@
-# Lesson 6: HTML Structure
+# Lesson 9: Nested Structure
 
 In this lesson, we will learn about nested structure
 

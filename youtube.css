@@ -18,26 +18,27 @@ p {
     margin-bottom: 20px;
 }
 
-.video-preview {
-    display:inline-block;
-    width: 400px;
-    vertical-align: top;
-    margin-left: 10px;
-    margin-right: 10px;
+.grids-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 24px;
+    column-gap: 16px;
 }
 
 .thumbnail {
-    width: 400px;
+    width: 100%;
     object-fit: cover;
     object-position: center;
     border-radius: 16px;
     margin-bottom: 8px;
 }
 
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 36px 1fr;
+}
+
 .channel-profile {
-    display: inline-block;
-    width: 36px;
-    vertical-align: top;
     margin-right: 8px;
 }
 
@@ -47,10 +48,8 @@ p {
 }
 
 .video-info{
-    display: inline-block;
-    width: 340px;
-    vertical-align: top;
     margin-top: 0;
+    margin-left: 8px;
 }
 
 .video-title{
