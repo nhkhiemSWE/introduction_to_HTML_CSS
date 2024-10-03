@@ -1,4 +1,5 @@
 # Lesson 3: Practice intermediate CSS skills
+
 In this lesson, we learne how to apply intermediate CSS skils to make effects
 
 ## Key topics covered:
