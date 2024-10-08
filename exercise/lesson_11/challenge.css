@@ -5,43 +5,41 @@ p {
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(30, 128, 225);
-    height: 40px;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(30, 128, 225);
+  height: 40px;
+  margin-bottom: 20px;
 }
 
 .home {
-    color: white;
-    margin-left: 10px;
-    font-weight: bold;
-    font-size: 12px;
-
+  color: white;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 .search-bar {
-    flex: 1;
-    border: none;
-    border-radius: 50vh;
-    padding-left: 12px;
-    font-size: 12px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    max-width: 400px;
-    margin-left:60px;
-    margin-right: 60px;
+  flex: 1;
+  border: none;
+  border-radius: 50vh;
+  padding-left: 12px;
+  font-size: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  max-width: 400px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 .download-button {
-    border: 1px solid white;
-    border-radius: 2px;
-    margin-right: 6px;
-    background-color: rgb(30, 128, 225);
-    color: white;
-    padding: 6px 8px 6px 8px;
+  border: 1px solid white;
+  border-radius: 2px;
+  margin-right: 6px;
+  background-color: rgb(30, 128, 225);
+  color: white;
+  padding: 6px 8px 6px 8px;
 }
-
 
 .friend-container {
   display: flex;

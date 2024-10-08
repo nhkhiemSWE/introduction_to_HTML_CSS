@@ -1,33 +1,144 @@
-.header{
-    display: flex;
-    flex-direction: row;
-    height: 56px;
-    justify-content: space-between;
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 56px;
+  justify-content: space-between;
 }
 
-.left-section{
-    background-color: lightblue;
-    width: 240px;
+.left-section {
+  width: 240px;
+  display: flex;
+  align-items: center;
 }
 
-.center-section{
-    background-color: lightcoral;
-    flex: 1;
-    margin-left: 64px;
-    margin-right: 32px;
-    max-width: 640px;
+.hamburger-menu-container {
+  width: 24px;
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.hamburger-menu {
+  width: 100%;
+  height: 100%;
+}
+
+.youtube-logo-container {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 90px;
+}
+
+.youtube-logo {
+  height: 20px;
+}
+
+.center-section {
+  flex: 1;
+  margin-left: 64px;
+  margin-right: 64px;
+  max-width: 560px;
+  display: flex;
+  align-items: center;
 }
 
 .search-bar {
+  flex: 1;
+  background-color: None;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
-  border: 1px solid rgb(172, 172, 172);
+  border: 0.5px solid rgb(88, 88, 88);
+  border-radius: 50vh 0 0 50vh;
+  font-size: 14px;
+  height: 22px;
+  background-color: black;
+  color: rgb(172, 172, 172);
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  height: 39px;
+  width: 64px;
+  background-color: rgb(40, 40, 40);
+  border-radius: 0 50vh 50vh 0;
+  justify-content: center;
+  border: 0.5px solid rgb(88, 88, 88);
+  margin-left: -1px;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  fill: rgb(255, 255, 255);
+}
+
+.voice-search-button {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(40, 40, 40);
   border-radius: 50vh;
+  border: none;
+  justify-content: center;
+  margin-left: 12px;
+  transition: background-color 0.2s;
 }
 
-.right-section{
-    background-color: lightgreen;
-    width: 200px;
+.voice-search-button:hover {
+  background-color: rgb(88, 88, 88);
 }
 
+.right-section {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  justify-content: flex-end;
+}
+
+.noti-button,
+.upload-button {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50vh;
+  justify-content: center;
+  border: none;
+  margin-right: 6px;
+  transition: background-color 0.2s;
+}
+
+.noti-button:hover,
+.upload-button:hover {
+  background-color: rgb(40, 40, 40);
+}
+
+.profile-button {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  width: 48px;
+  border-radius: 50vh;
+  justify-content: center;
+  border: none;
+  background-color: black;
+  margin-right: 16px;
+  margin-left: 6px;
+}
+
+.profile-image {
+  height: 32px;
+  width: 32px;
+  border-radius: 50vh;
+  object-fit: cover;
+  align-items: center;
+}
