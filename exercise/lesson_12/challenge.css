@@ -1,0 +1,50 @@
+body {
+  height: 3000px;
+}
+
+.right-side-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100px;
+  bottom: 0;
+  background-color: green;
+  color: white;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  height: 160px;
+  width: 320px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 6px;
+}
+
+.modal-title,
+p {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.close-button {
+  margin-top: 12px;
+  width: 72px;
+  display: inline-block;
+  cursor: pointer;
+}
