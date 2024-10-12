@@ -8,6 +8,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1000;
 }
 
 .left-section {
@@ -47,6 +48,10 @@
   display: flex;
   align-items: center;
 }
+.search-bar, .search-button {
+  border: 0.5px solid rgb(72, 72, 72);
+
+}
 
 .search-bar {
   flex: 1;
@@ -54,7 +59,6 @@
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 16px;
-  border: 0.5px solid rgb(88, 88, 88);
   border-radius: 50vh 0 0 50vh;
   font-size: 14px;
   height: 22px;
@@ -69,12 +73,11 @@
 .search-button {
   display: flex;
   align-items: center;
-  height: 39px;
+  height: 40px;
   width: 64px;
   background-color: rgb(40, 40, 40);
   border-radius: 0 50vh 50vh 0;
   justify-content: center;
-  border: 0.5px solid rgb(88, 88, 88);
   margin-left: -1px;
 }
 
@@ -98,7 +101,7 @@
 }
 
 .voice-search-button:hover {
-  background-color: rgb(88, 88, 88);
+  background-color: rgb(72, 72, 72);
 }
 
 .right-section {
@@ -146,4 +149,26 @@
   border-radius: 50vh;
   object-fit: cover;
   align-items: center;
+}
+
+.noti-button{
+  position: relative;
+}
+
+.noti-badge {
+  position: absolute;
+  top: 2px;
+  right: -6px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: rgb(183, 0, 0);
+  border-radius: 50vh;
+  border: 2px solid rgb(4,4,4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
 }

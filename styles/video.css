@@ -5,12 +5,29 @@
   column-gap: 16px;
 }
 
+.thumbnail-container {
+  position: relative;
+  margin-bottom: 8px;
+}
+
 .thumbnail {
   width: 100%;
   object-fit: cover;
   object-position: center;
   border-radius: 16px;
-  margin-bottom: 8px;
+}
+
+.duration {
+  position: absolute;
+  bottom: 12px;
+  right: 8px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  font-family: "Roboto", Arial;
+  font-weight: 500;
+  font-size: 12px;
 }
 
 .video-info-grid {

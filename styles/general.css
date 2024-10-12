@@ -11,6 +11,7 @@ body {
   background-color: rgb(4, 4, 4);
   padding-top: 80px;
   padding-left: 96px;
+  height: 3000px;
 }
 
 svg {
