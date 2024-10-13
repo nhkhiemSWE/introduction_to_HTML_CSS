@@ -5,5 +5,47 @@
   top: 56px;
   left: 0;
   bottom: 0;
-  background-color: rgb(4, 4, 4);
+  background-color: rgb(4,4,4);
+  padding-top: 4px;
+}
+
+@media (max-width: 678px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.sidebar-icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.sidebar-icon-container:hover {
+  background-color: rgb(72, 72, 72);
+}
+
+.sidebar-icon-container p {
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 10px;
+  color: white;
+  white-space: nowrap; /* Prevents the text from wrapping */
+  overflow: hidden; /* Hides the overflowed text */
+  text-overflow: ellipsis; /* Adds the ellipsis */
+}
+
+.sidebar-icon {
+    margin-bottom: 4px;
+    width: 24px;
+    height: 24px;
+    width: 100%;
 }

@@ -1,17 +1,22 @@
 p {
-  font-family: "Roboto", Arial;
-  font-size: 14px;
-  color: rgb(172, 172, 172);
   margin-top: 0;
   margin-bottom: 0;
 }
 
 body {
   margin: 0;
+  font-family: "Roboto", Arial;
+  font-size: 14px;
+  color: rgb(172, 172, 172);
   background-color: rgb(4, 4, 4);
-  padding-top: 80px;
-  padding-left: 96px;
-  height: 3000px;
+  padding-top: 56px;
+  padding-left: 72px;
+}
+
+@media (max-width: 678px) {
+  body {
+    padding-left: 0;
+  }
 }
 
 svg {
